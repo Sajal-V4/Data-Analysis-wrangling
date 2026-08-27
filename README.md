@@ -25,23 +25,6 @@ unsupervised learning (RFM feature engineering + KMeans) to group
 customers by purchase behavior so marketing/retention effort can be
 targeted by segment instead of applied uniformly.
 
-## For your CV / resume
-
-A few ways to phrase this as a bullet point, depending on emphasis:
-
-- Built an end-to-end Python pipeline (pandas, NumPy, scikit-learn) to
-  clean, validate, and segment retail sales data, handling missing
-  values, duplicates, and outliers, with structured logging and
-  exception handling for production-style reliability.
-- Engineered RFM (Recency, Frequency, Monetary) features and applied
-  KMeans clustering with PCA-based visualization to segment customers
-  into actionable groups (Champions, Loyal, At Risk, Low Value) for
-  targeted retention strategy.
-- Designed a modular, fault-tolerant data pipeline that gracefully
-  handles malformed input, missing columns, and edge cases (e.g. empty
-  datasets, unparseable dates) without crashing, logging every
-  recoverable issue for auditability.
-
 ## What it does
 
 1. **Generates a messy raw dataset** (`raw_sales_data.csv`) — synthetic retail
